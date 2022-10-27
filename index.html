@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Caitlin Malloch | Software Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>CAITLIN MALLOCH</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Showcase Section
+    <div class="showcase-content">
+      <div class="showcase-text">
+        <div class="text-1">Hello, my name is</div>
+        <div class="text-2">Caitlin Malloch</div>
+        <div class="text-3">And I'm a <span class="typing-1"></span></div>
+        <a href="#" class="btn-md">Hire Me</a>
+      </div>
+    </div> -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="./assets/images/profilepic.png"
+        alt="caitlin-malloch"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I'm Cait and I am a Software Developer living on Vancouver Island,
+          Canada.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>Background</h2>
+      <p>
+        I have a Bachelor of Commerce and a Bachelor of Education. I have
+        experience working in both the financial and education industry. I
+        recently returned to Canada after teaching in Japan for 3 years on the
+        JET Program.
+      </p>
+      <p>
+        Upon my return to Canada, I decided to pursue my dream of learning to
+        code. I started by learning data science and completed the Google Data
+        Analytics Professional Certificate. Through this program, I learned SQL,
+        Tableau, R and Python. I then found web development and completed the
+        Codecademy Full-Stack Developer Program. During the bootcamp program, I
+        learned HTML, CSS, JavaScript, React and Node.js, in addition to data
+        structures and algorithms.
+      </p>
+      <p>
+        In the future, I will be focusing on learning back-end technologies
+        including more Python, C# and Java.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt="Html 5 icon by Icons8"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt="CSS3 icon by Icons8"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-nodejs.svg"
+            alt="Nodejs icon by Icons8"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt="React Native icon by Icons8"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="./assets/images/dewdropssite.jpg"
+            alt="dewdrops-responsive-site"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Dewdrops Responsive Site</h3>
+          <p class="project-details">
+            This responsive site was built for a fictional company I created
+            that sells organic skincare products. It features several products
+            sold by the company.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="./assets/images/ikebanasite.jpg"
+            alt="ikebana-site"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Ikebana Club Website</h3>
+          <p class="project-details">
+            This is another responsive website made for a fictional flower
+            arranging club that I created for this project. It includes a
+            contact form.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="./assets/images/tarotofthedaysite.jpg"
+            alt="tarot-site"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Tarot of the Day</h3>
+          <p class="project-details">
+            This site features a tarot card message that can be generated on a
+            button click. I used vanilla JavaScript to generate the message.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter Circled icon by Icons8"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin Circled icon by Icon8"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-github.gif"
+          alt="GitHub icon by Icons8"
+          loading="lazy"
+          class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="Upward Arrow icon by Icons8"
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/CaitlinMalloch" target="_blank"
+          >Caitlin Malloch</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
