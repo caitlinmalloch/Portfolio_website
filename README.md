@@ -2,17 +2,13 @@
 
 This is a software developer portfolio for Caitlin Malloch.
 
-# Preview
-
-![Preview of Live Site][preview]
-
-[preview]: assets\images\portfolio_live.png
-
 # Author
 
 Caitlin Malloch, 2022
 
 # Live Site Link
+
+The live version of this website is hosted using GitHub Pages. The link can be found here: https://caitlinmalloch.github.io/Portfolio_website/
 
 # Tech Stack
 
