@@ -2,12 +2,6 @@
 
 This is a software developer portfolio for Caitlin Malloch.
 
-# Preview
-
-![Preview of Live Site][preview]
-
-[preview]: assets\images\portfolio_live.png
-
 # Author
 
 Caitlin Malloch, 2022
