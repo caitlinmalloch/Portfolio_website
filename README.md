@@ -8,7 +8,7 @@ Caitlin Malloch, 2022
 
 # Live Site Link
 
-[Link](caitlinmalloch.netlify.app)
+[Link](https://caitlinmalloch.netlify.app)
 
 caitlinmalloch.netlify.app
 
