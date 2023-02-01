@@ -8,6 +8,8 @@ Caitlin Malloch, 2022
 
 # Live Site Link
 
+[Link](caitlinmalloch.netlify.app)
+
 caitlinmalloch.netlify.app
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7072ab86-49a8-4b60-84f1-c94f55f0cc5a/deploy-status)](https://app.netlify.com/sites/caitlinmalloch/deploys)
