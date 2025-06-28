@@ -90,7 +90,7 @@ nav ul li {
 }
 
 .logo img {
-  height: 200px;
+  height: 120px;
   width: auto;
   display: block;
 }
@@ -113,14 +113,26 @@ nav ul li {
   pointer-events: none;
 }
 
-.more-about{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+.more-about {
+  max-width: 900px;
+  margin: 3rem auto;
   padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  text-align: left;
+}
+
+.more-about h2 {
+  font-size: 1.5rem;
+  color: var(--heading-color);
+  margin-bottom: 1rem;
+}
+
+.more-about p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.8;
 }
 
 .hero,
@@ -292,6 +304,15 @@ footer {
   .projects,
   .contact {
     padding: 1rem;
+  }
+
+  .hero-img {
+    max-width: 200px;
+  }
+
+  .more-about {
+    padding: 1.5rem;
+    margin: 2rem 1rem;
   }
 
   .bio {
